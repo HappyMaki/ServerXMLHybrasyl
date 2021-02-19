@@ -1,0 +1,403 @@
+2021-02-18 19:24:51.228 -05:00 [INF] Hybrasyl log begin
+2021-02-18 19:24:51.303 -05:00 [INF] Welcome to Project Hybrasyl: this is Hybrasyl server 0.7.3.0
+
+
+2021-02-18 19:24:51.446 -05:00 [INF] Configuration file C:\Users\Ling\Documents\Hybrasyl\config.xml loaded
+2021-02-18 19:24:51.450 -05:00 [INF] Hybrasyl 0.7.3.0 (commit 1234da4) starting.
+2021-02-18 19:24:51.453 -05:00 [INF] (C) 2019 ERISCO LLC - this program is licensed under the GNU AGPL, version 3.
+2021-02-18 19:24:51.496 -05:00 [INF] Sentry: exception reporting disabled
+2021-02-18 19:24:51.507 -05:00 [INF] LobbyConstructor: port is 2610
+2021-02-18 19:24:51.509 -05:00 [INF] LoginConstructor: port is 2611
+2021-02-18 19:24:51.641 -05:00 [INF] showcookies registered
+2021-02-18 19:24:51.642 -05:00 [INF] clearcookie registered
+2021-02-18 19:24:51.642 -05:00 [INF] clearsessioncookie registered
+2021-02-18 19:24:51.643 -05:00 [INF] dumpmetadata registered
+2021-02-18 19:24:51.651 -05:00 [INF] setcookie registered
+2021-02-18 19:24:51.652 -05:00 [INF] immortal registered
+2021-02-18 19:24:51.652 -05:00 [INF] showephemeral registered
+2021-02-18 19:24:51.653 -05:00 [INF] setephemeral registered
+2021-02-18 19:24:51.654 -05:00 [INF] clearephemeral registered
+2021-02-18 19:24:51.696 -05:00 [WRN] SetSessionCookie: could not be loaded - System.ArgumentException: An item with the same key has already been added. Key: setcookie
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Hybrasyl.ChatCommands.ChatCommandHandler..ctor() in C:\Users\Ling\Desktop\Hybrasyl\green\server\hybrasyl\ChatCommands\ChatCommandHandler.cs:line 72
+2021-02-18 19:24:51.697 -05:00 [INF] deletesessioncookie registered
+2021-02-18 19:24:51.699 -05:00 [INF] deletecookie registered
+2021-02-18 19:24:51.699 -05:00 [INF] summon registered
+2021-02-18 19:24:51.700 -05:00 [INF] kick registered
+2021-02-18 19:24:51.701 -05:00 [INF] gcm registered
+2021-02-18 19:24:51.701 -05:00 [INF] mute registered
+2021-02-18 19:24:51.702 -05:00 [INF] unmute registered
+2021-02-18 19:24:51.703 -05:00 [INF] reload registered
+2021-02-18 19:24:51.703 -05:00 [INF] walls registered
+2021-02-18 19:24:51.704 -05:00 [INF] shutdown registered
+2021-02-18 19:24:51.705 -05:00 [INF] scripting registered
+2021-02-18 19:24:51.706 -05:00 [INF] reloadnpc registered
+2021-02-18 19:24:51.706 -05:00 [INF] teleport registered
+2021-02-18 19:24:51.707 -05:00 [INF] queuedepth registered
+2021-02-18 19:24:51.708 -05:00 [INF] resurrect registered
+2021-02-18 19:24:51.709 -05:00 [INF] return registered
+2021-02-18 19:24:51.709 -05:00 [INF] debug registered
+2021-02-18 19:24:51.716 -05:00 [INF] spawn registered
+2021-02-18 19:24:51.717 -05:00 [INF] spawnx registered
+2021-02-18 19:24:51.718 -05:00 [INF] reloadxml registered
+2021-02-18 19:24:51.719 -05:00 [INF] loadxml registered
+2021-02-18 19:24:51.719 -05:00 [INF] generate registered
+2021-02-18 19:24:51.720 -05:00 [INF] cleardialog registered
+2021-02-18 19:24:51.721 -05:00 [INF] mapdebug registered
+2021-02-18 19:24:51.721 -05:00 [INF] mapspawntoggle registered
+2021-02-18 19:24:51.723 -05:00 [INF] spawntoggle registered
+2021-02-18 19:24:51.723 -05:00 [INF] motion registered
+2021-02-18 19:24:51.724 -05:00 [INF] hairstyle registered
+2021-02-18 19:24:51.724 -05:00 [INF] effect registered
+2021-02-18 19:24:51.725 -05:00 [INF] sound registered
+2021-02-18 19:24:51.726 -05:00 [INF] music registered
+2021-02-18 19:24:51.727 -05:00 [INF] item registered
+2021-02-18 19:24:51.732 -05:00 [INF] itemlist registered
+2021-02-18 19:24:51.732 -05:00 [INF] mapmsg registered
+2021-02-18 19:24:51.733 -05:00 [INF] worldmsg registered
+2021-02-18 19:24:51.734 -05:00 [INF] group registered
+2021-02-18 19:24:51.735 -05:00 [INF] ungroup registered
+2021-02-18 19:24:51.735 -05:00 [INF] maplist registered
+2021-02-18 19:24:51.736 -05:00 [INF] version registered
+2021-02-18 19:24:51.737 -05:00 [INF] recentkills registered
+2021-02-18 19:24:51.737 -05:00 [INF] help registered
+2021-02-18 19:24:51.738 -05:00 [INF] legend registered
+2021-02-18 19:24:51.739 -05:00 [INF] title registered
+2021-02-18 19:24:51.739 -05:00 [INF] legendclear registered
+2021-02-18 19:24:51.740 -05:00 [INF] legendcolors registered
+2021-02-18 19:24:51.741 -05:00 [INF] hp registered
+2021-02-18 19:24:51.742 -05:00 [INF] basehp registered
+2021-02-18 19:24:51.742 -05:00 [INF] mp registered
+2021-02-18 19:24:51.743 -05:00 [INF] basemp registered
+2021-02-18 19:24:51.748 -05:00 [INF] attr registered
+2021-02-18 19:24:51.749 -05:00 [INF] gold registered
+2021-02-18 19:24:51.750 -05:00 [INF] damage registered
+2021-02-18 19:24:51.750 -05:00 [INF] exp registered
+2021-02-18 19:24:51.751 -05:00 [INF] expreset registered
+2021-02-18 19:24:51.752 -05:00 [INF] nation registered
+2021-02-18 19:24:51.753 -05:00 [INF] class registered
+2021-02-18 19:24:51.753 -05:00 [INF] level registered
+2021-02-18 19:24:51.754 -05:00 [INF] forget registered
+2021-02-18 19:24:51.755 -05:00 [INF] clevel registered
+2021-02-18 19:24:51.755 -05:00 [INF] skill registered
+2021-02-18 19:24:51.756 -05:00 [INF] spell registered
+2021-02-18 19:24:51.757 -05:00 [INF] master registered
+2021-02-18 19:24:51.757 -05:00 [INF] dura registered
+2021-02-18 19:24:51.758 -05:00 [INF] status registered
+2021-02-18 19:24:51.759 -05:00 [INF] clearstatus registered
+2021-02-18 19:24:51.760 -05:00 [INF] clearflags registered
+2021-02-18 19:24:51.764 -05:00 [INF] condition registered
+2021-02-18 19:24:51.765 -05:00 [INF] statuses registered
+2021-02-18 19:24:51.766 -05:00 [INF] time registered
+2021-02-18 19:24:51.767 -05:00 [INF] timeconvert registered
+2021-02-18 19:24:51.773 -05:00 [INF] Checking Redis for current migration status
+2021-02-18 19:24:51.988 -05:00 [INF] Redis migration 20200929-authinfo: applied
+2021-02-18 19:24:51.989 -05:00 [INF] Redis migration 20200930-mailbox-uuid: applied
+2021-02-18 19:24:51.990 -05:00 [INF] Redis migration 20201006-board-rename: applied
+2021-02-18 19:24:51.994 -05:00 [INF] Loading script: \npcs\Resurrector.lua
+2021-02-18 19:24:52.153 -05:00 [INF] ItemObject variants: 2 variant sets loaded
+2021-02-18 19:24:52.231 -05:00 [INF] ItemObject Abundance Boots: variantgroup Enchantable, subvariant Abundance
+2021-02-18 19:24:52.233 -05:00 [INF] ItemObject Blessed Boots: variantgroup Enchantable, subvariant Blessed
+2021-02-18 19:24:52.235 -05:00 [INF] ItemObject Might Boots: variantgroup Enchantable, subvariant Might
+2021-02-18 19:24:52.236 -05:00 [INF] ItemObject Magic Boots: variantgroup Enchantable, subvariant Magic
+2021-02-18 19:24:53.137 -05:00 [INF] Loading Map 435, Hybrasyl.Map, Chaotic Threshold
+2021-02-18 19:24:53.141 -05:00 [INF] Maps: Loaded chaoticthreshold.xml (Chaotic Threshold)
+2021-02-18 19:24:53.147 -05:00 [INF] Loading Map 435, Hybrasyl.Map, Death Map
+2021-02-18 19:24:53.151 -05:00 [ERR] SetWithIndex fail for {map.Name}..?
+2021-02-18 19:24:53.152 -05:00 [INF] Maps: Loaded deathmap.xml (Death Map)
+2021-02-18 19:24:53.166 -05:00 [INF] Loading Map 133, Hybrasyl.Map, Mileth Armor Shop
+2021-02-18 19:24:53.173 -05:00 [INF] Maps: Loaded mileth_armor_shop.xml (Mileth Armor Shop)
+2021-02-18 19:24:53.181 -05:00 [INF] Loading Map 401, Hybrasyl.Map, Mileth Black Magic Master
+2021-02-18 19:24:53.189 -05:00 [INF] Maps: Loaded mileth_black_magic_master.xml (Mileth Black Magic Master)
+2021-02-18 19:24:53.198 -05:00 [INF] Loading Map 301, Hybrasyl.Map, Mileth Combat Skill Master
+2021-02-18 19:24:53.203 -05:00 [INF] Maps: Loaded mileth_combat_skill_master.xml (Mileth Combat Skill Master)
+2021-02-18 19:24:53.211 -05:00 [INF] Loading Map 130, Hybrasyl.Map, Mileth Goods Shop
+2021-02-18 19:24:53.217 -05:00 [INF] Maps: Loaded mileth_goods_shop.xml (Mileth Goods Shop)
+2021-02-18 19:24:53.223 -05:00 [INF] Loading Map 136, Hybrasyl.Map, Mileth Inn
+2021-02-18 19:24:53.224 -05:00 [INF] Maps: Loaded mileth_inn.xml (Mileth Inn)
+2021-02-18 19:24:53.235 -05:00 [INF] Loading Map 200, Hybrasyl.Map, Mileth Inn Corridor 1
+2021-02-18 19:24:53.236 -05:00 [INF] Maps: Loaded mileth_inn_corridor_1.xml (Mileth Inn Corridor 1)
+2021-02-18 19:24:53.245 -05:00 [INF] Loading Map 201, Hybrasyl.Map, Mileth Inn Corridor 2
+2021-02-18 19:24:53.250 -05:00 [INF] Maps: Loaded mileth_inn_corridor_2.xml (Mileth Inn Corridor 2)
+2021-02-18 19:24:53.258 -05:00 [INF] Loading Map 137, Hybrasyl.Map, Mileth Inn Room 1
+2021-02-18 19:24:53.259 -05:00 [INF] Maps: Loaded mileth_inn_room_1.xml (Mileth Inn Room 1)
+2021-02-18 19:24:53.277 -05:00 [INF] Loading Map 146, Hybrasyl.Map, Mileth Inn Room 10
+2021-02-18 19:24:53.288 -05:00 [INF] Maps: Loaded mileth_inn_room_10.xml (Mileth Inn Room 10)
+2021-02-18 19:24:53.297 -05:00 [INF] Loading Map 139, Hybrasyl.Map, Mileth Inn Room 2
+2021-02-18 19:24:53.301 -05:00 [INF] Maps: Loaded mileth_inn_room_2.xml (Mileth Inn Room 2)
+2021-02-18 19:24:53.309 -05:00 [INF] Loading Map 140, Hybrasyl.Map, Mileth Inn Room 3
+2021-02-18 19:24:53.316 -05:00 [INF] Maps: Loaded mileth_inn_room_3.xml (Mileth Inn Room 3)
+2021-02-18 19:24:53.325 -05:00 [INF] Loading Map 138, Hybrasyl.Map, Mileth Inn Room 4
+2021-02-18 19:24:53.326 -05:00 [INF] Maps: Loaded mileth_inn_room_4.xml (Mileth Inn Room 4)
+2021-02-18 19:24:53.341 -05:00 [INF] Loading Map 141, Hybrasyl.Map, Mileth Inn Room 5
+2021-02-18 19:24:53.342 -05:00 [INF] Maps: Loaded mileth_inn_room_5.xml (Mileth Inn Room 5)
+2021-02-18 19:24:53.349 -05:00 [INF] Loading Map 142, Hybrasyl.Map, Mileth Inn Room 6
+2021-02-18 19:24:53.350 -05:00 [INF] Maps: Loaded mileth_inn_room_6.xml (Mileth Inn Room 6)
+2021-02-18 19:24:53.359 -05:00 [INF] Loading Map 143, Hybrasyl.Map, Mileth Inn Room 7
+2021-02-18 19:24:53.367 -05:00 [INF] Maps: Loaded mileth_inn_room_7.xml (Mileth Inn Room 7)
+2021-02-18 19:24:53.375 -05:00 [INF] Loading Map 144, Hybrasyl.Map, Mileth Inn Room 8
+2021-02-18 19:24:53.376 -05:00 [INF] Maps: Loaded mileth_inn_room_8.xml (Mileth Inn Room 8)
+2021-02-18 19:24:53.391 -05:00 [INF] Loading Map 145, Hybrasyl.Map, Mileth Inn Room 9
+2021-02-18 19:24:53.392 -05:00 [INF] Maps: Loaded mileth_inn_room_9.xml (Mileth Inn Room 9)
+2021-02-18 19:24:53.401 -05:00 [INF] Loading Map 127, Hybrasyl.Map, Mileth Magic Shop
+2021-02-18 19:24:53.402 -05:00 [INF] Maps: Loaded mileth_magic_shop.xml (Mileth Magic Shop)
+2021-02-18 19:24:53.410 -05:00 [INF] Loading Map 128, Hybrasyl.Map, Mileth Messenger
+2021-02-18 19:24:53.416 -05:00 [INF] Maps: Loaded mileth_messenger.xml (Mileth Messenger)
+2021-02-18 19:24:53.426 -05:00 [INF] Loading Map 129, Hybrasyl.Map, Mileth Restaurant
+2021-02-18 19:24:53.433 -05:00 [INF] Maps: Loaded mileth_restaurant.xml (Mileth Restaurant)
+2021-02-18 19:24:53.442 -05:00 [INF] Loading Map 400, Hybrasyl.Map, Mileth Special Skill Master
+2021-02-18 19:24:53.449 -05:00 [INF] Maps: Loaded mileth_special_skill_master.xml (Mileth Special Skill Master)
+2021-02-18 19:24:53.459 -05:00 [INF] Loading Map 135, Hybrasyl.Map, Mileth Storage
+2021-02-18 19:24:53.467 -05:00 [INF] Maps: Loaded mileth_storage.xml (Mileth Storage)
+2021-02-18 19:24:53.477 -05:00 [INF] Loading Map 134, Hybrasyl.Map, Mileth Taverne
+2021-02-18 19:24:53.484 -05:00 [INF] Maps: Loaded mileth_tavern.xml (Mileth Taverne)
+2021-02-18 19:24:53.494 -05:00 [INF] Loading Map 717, Hybrasyl.Map, Mileth Training Room
+2021-02-18 19:24:53.500 -05:00 [INF] Maps: Loaded mileth_training_room.xml (Mileth Training Room)
+2021-02-18 19:24:53.509 -05:00 [INF] Inserted signpost Mileth Village@13,42
+2021-02-18 19:24:53.510 -05:00 [INF] Inserted signpost Mileth Village@67,17
+2021-02-18 19:24:53.517 -05:00 [INF] Inserted signpost Mileth Village@34,40
+2021-02-18 19:24:53.520 -05:00 [INF] Inserted signpost Mileth Village@34,40
+2021-02-18 19:24:53.536 -05:00 [INF] Inserted signpost Mileth Village@16,71
+2021-02-18 19:24:53.538 -05:00 [INF] Inserted signpost Mileth Village@21,64
+2021-02-18 19:24:53.539 -05:00 [INF] Inserted signpost Mileth Village@21,87
+2021-02-18 19:24:53.547 -05:00 [INF] Loading Map 500, Hybrasyl.Map, Mileth Village
+2021-02-18 19:24:53.551 -05:00 [INF] Maps: Loaded mileth_village.xml (Mileth Village)
+2021-02-18 19:24:53.559 -05:00 [INF] Loading Map 132, Hybrasyl.Map, Mileth Weapon Shop
+2021-02-18 19:24:53.567 -05:00 [INF] Maps: Loaded mileth_weapon_shop.xml (Mileth Weapon Shop)
+2021-02-18 19:24:53.576 -05:00 [INF] Loading Map 302, Hybrasyl.Map, Mileth White Magic Master
+2021-02-18 19:24:53.584 -05:00 [INF] Maps: Loaded mileth_white_magic_master.xml (Mileth White Magic Master)
+2021-02-18 19:24:53.593 -05:00 [INF] Loading Map 381, Hybrasyl.Map, Race Ticket Shop
+2021-02-18 19:24:53.599 -05:00 [INF] Maps: Loaded race_ticket_shop.xml (Race Ticket Shop)
+2021-02-18 19:24:53.601 -05:00 [INF] Maps: 29 maps loaded
+2021-02-18 19:24:53.616 -05:00 [INF] National data: 1 nations loaded
+2021-02-18 19:24:53.622 -05:00 [INF] Creatures: 2 creatures loaded
+2021-02-18 19:24:53.676 -05:00 [INF] SpawnGroup: loaded Crypt_1
+2021-02-18 19:24:53.684 -05:00 [INF] SpawnGroup: loaded Mileth_Inn
+2021-02-18 19:24:53.685 -05:00 [INF] Spawngroups: 2 spawngroups loaded
+2021-02-18 19:24:53.703 -05:00 [INF] Loot Sets: 1 loot sets loaded
+2021-02-18 19:24:53.705 -05:00 [INF] World Maps: 0 world maps loaded
+2021-02-18 19:24:53.738 -05:00 [WRN] Statuses: loaded Coma, id -809113706
+2021-02-18 19:24:53.739 -05:00 [INF] Statuses: 1 statuses loaded
+2021-02-18 19:24:53.819 -05:00 [INF] Castables: loaded Assail, id -345856127
+2021-02-18 19:24:53.820 -05:00 [INF] Castables: 1 castables loaded
+2021-02-18 19:24:53.830 -05:00 [INF] -------------zEBRA, ["Hybrasyl.Xml.ElementTableSourceElement","Hybrasyl.Xml.ElementTableSourceElement"]
+2021-02-18 19:24:53.837 -05:00 [INF] ElementTable: loaded element None, target None, multiplier 1
+2021-02-18 19:24:53.838 -05:00 [INF] ElementTable: loaded element Fire, target Fire, multiplier 0.7
+2021-02-18 19:24:53.864 -05:00 [INF] Board: loaded hybrasyl
+2021-02-18 19:24:53.887 -05:00 [INF] Boards: Global board hybrasyl initialized
+2021-02-18 19:24:53.955 -05:00 [INF] Hybrasyl server ready
+2021-02-18 19:24:53.966 -05:00 [INF] Job class AutoSnoreJob
+2021-02-18 19:24:53.967 -05:00 [INF] Hybrasyl: timer loaded for job AutoSnoreJob: interval 10000
+2021-02-18 19:24:53.970 -05:00 [INF] Job class ByteHeartbeatJob
+2021-02-18 19:24:53.971 -05:00 [INF] Hybrasyl: timer loaded for job ByteHeartbeatJob: interval 60000
+2021-02-18 19:24:53.972 -05:00 [INF] Job class CheckpointerJob
+2021-02-18 19:24:53.973 -05:00 [INF] Hybrasyl: timer loaded for job CheckpointerJob: interval 300000
+2021-02-18 19:24:53.973 -05:00 [INF] Job class HeartbeatReaperJob
+2021-02-18 19:24:53.974 -05:00 [INF] Hybrasyl: timer loaded for job HeartbeatReaperJob: interval 5000
+2021-02-18 19:24:53.975 -05:00 [INF] Job class IdleDetectionJob
+2021-02-18 19:24:53.976 -05:00 [INF] Hybrasyl: timer loaded for job IdleDetectionJob: interval 60000
+2021-02-18 19:24:53.992 -05:00 [INF] Job class MailboxCleanupJob
+2021-02-18 19:24:53.993 -05:00 [INF] Hybrasyl: timer loaded for job MailboxCleanupJob: interval 3600000
+2021-02-18 19:24:53.997 -05:00 [INF] Job class MerchantInventoryRefreshJob
+2021-02-18 19:24:53.998 -05:00 [INF] Hybrasyl: timer loaded for job MerchantInventoryRefreshJob: interval 60000
+2021-02-18 19:24:53.999 -05:00 [INF] Job class MetricsJob
+2021-02-18 19:24:54.000 -05:00 [INF] Hybrasyl: timer loaded for job MetricsJob: interval 20000
+2021-02-18 19:24:54.002 -05:00 [INF] Job class RegenerationJob
+2021-02-18 19:24:54.003 -05:00 [INF] Hybrasyl: timer loaded for job RegenerationJob: interval 25000
+2021-02-18 19:24:54.004 -05:00 [INF] Job class ShutdownJob
+2021-02-18 19:24:54.004 -05:00 [INF] Hybrasyl: timer loaded for job ShutdownJob: interval 10000
+2021-02-18 19:24:54.005 -05:00 [INF] Job class StatusTickJob
+2021-02-18 19:24:54.006 -05:00 [INF] Hybrasyl: timer loaded for job StatusTickJob: interval 1000
+2021-02-18 19:24:54.006 -05:00 [INF] Job class TickHeartbeatJob
+2021-02-18 19:24:54.007 -05:00 [INF] Hybrasyl: timer loaded for job TickHeartbeatJob: interval 60000
+2021-02-18 19:24:54.008 -05:00 [INF] Job class <>c
+2021-02-18 19:24:54.009 -05:00 [ERR] Job class <>c has no Execute method! Job will not be scheduled.
+2021-02-18 19:24:54.025 -05:00 [INF] Job class <>c
+2021-02-18 19:24:54.026 -05:00 [ERR] Job class <>c has no Execute method! Job will not be scheduled.
+2021-02-18 19:24:54.037 -05:00 [INF] Consumer thread: started
+2021-02-18 19:24:54.038 -05:00 [INF] Control consumer thread: started
+2021-02-18 19:24:54.040 -05:00 [INF] Starting TcpListener: 0.0.0.0:2610
+2021-02-18 19:24:54.040 -05:00 [INF] Starting TcpListener: 0.0.0.0:2611
+2021-02-18 19:24:54.040 -05:00 [INF] Starting TcpListener: 0.0.0.0:2612
+2021-02-18 19:24:54.050 -05:00 [INF] Spawn: Mileth Inn: spawning 2 mobs 
+2021-02-18 19:24:54.089 -05:00 [INF] SPAWN MOB, Bee: Mileth Inn
+2021-02-18 19:24:54.090 -05:00 [INF] SPAWN MOB, Bee: Mileth Inn
+2021-02-18 19:24:54.466 -05:00 [WRN] THIS VERSION OF HYBRASYL IS OUT OF DATE
+2021-02-18 19:24:54.467 -05:00 [WRN] You have 1234da4 but 45da5f7 is available as of Fri Sep 25 10:57:51 PDT 2020
+2021-02-18 19:24:54.468 -05:00 [WRN] You can download the new version at https://www.hybrasyl.com/builds/ .
+2021-02-18 19:25:34.094 -05:00 [INF] Spawn: Mileth Inn: spawning 3 mobs 
+2021-02-18 19:25:34.096 -05:00 [INF] SPAWN MOB, Bee: Mileth Inn
+2021-02-18 19:25:34.098 -05:00 [INF] SPAWN MOB, Bee: Mileth Inn
+2021-02-18 19:25:34.099 -05:00 [INF] SPAWN MOB, Bee: Mileth Inn
+2021-02-18 19:25:59.301 -05:00 [INF] Connection 1 from 127.0.0.1:65342
+2021-02-18 19:25:59.303 -05:00 [INF] EncryptionKey is UrkcnItnI
+2021-02-18 19:25:59.417 -05:00 [ERR] bytesRead: 0, errorCode: ConnectionReset
+2021-02-18 19:25:59.421 -05:00 [INF] Deregistering 1
+2021-02-18 19:25:59.422 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:26:14.104 -05:00 [INF] Spawn: Mileth Inn: spawning 1 mobs 
+2021-02-18 19:26:14.105 -05:00 [INF] SPAWN MOB, Bee: Mileth Inn
+2021-02-18 19:26:24.267 -05:00 [INF] Connection 2 from 127.0.0.1:65354
+2021-02-18 19:26:24.268 -05:00 [INF] EncryptionKey is UrkcnItnI
+2021-02-18 19:26:24.367 -05:00 [ERR] bytesRead: 0, errorCode: ConnectionReset
+2021-02-18 19:26:24.368 -05:00 [INF] Deregistering 2
+2021-02-18 19:26:24.369 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:26:33.634 -05:00 [INF] Connection 3 from 127.0.0.1:65356
+2021-02-18 19:26:33.635 -05:00 [INF] EncryptionKey is UrkcnItnI
+2021-02-18 19:26:33.667 -05:00 [WRN] Lobby: Unhandled opcode 0x62
+2021-02-18 19:26:33.731 -05:00 [INF] Processing redirect
+2021-02-18 19:26:33.732 -05:00 [INF] Redirect: cid 3
+2021-02-18 19:26:33.733 -05:00 [INF] Redirect EncryptionKey is UrkcnItnI
+2021-02-18 19:26:34.054 -05:00 [ERR] bytesRead: 0, errorCode: Success
+2021-02-18 19:26:34.054 -05:00 [INF] Connection 4 from 127.0.0.1:65357
+2021-02-18 19:26:34.055 -05:00 [INF] Deregistering 3
+2021-02-18 19:26:34.057 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:26:54.758 -05:00 [INF] cid 4 (Mikami): login successful, redirecting to world server
+2021-02-18 19:26:54.765 -05:00 [INF] Processing redirect
+2021-02-18 19:26:54.765 -05:00 [INF] Redirect: cid 4
+2021-02-18 19:26:54.766 -05:00 [INF] Redirect EncryptionKey is UrkcnItnI
+2021-02-18 19:26:54.808 -05:00 [WRN] Login: Unhandled opcode 0x7B
+2021-02-18 19:26:55.099 -05:00 [ERR] bytesRead: 0, errorCode: Success
+2021-02-18 19:26:55.100 -05:00 [INF] Connection 5 from 127.0.0.1:65360
+2021-02-18 19:26:55.100 -05:00 [INF] Deregistering 4
+2021-02-18 19:26:55.102 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:26:56.125 -05:00 [FTL] Failed to remove gameobject id: 86 name: Mikami
+2021-02-18 19:26:56.131 -05:00 [INF] cid 5: Mikami entering world
+2021-02-18 19:26:56.132 -05:00 [INF] 1 days, 0 hours, 31 minutes
+2021-02-18 19:27:00.620 -05:00 [INF] Responding 6F: adding ItemInfo2, checksum 467885032
+2021-02-18 19:27:00.621 -05:00 [INF] Responding 6F: adding ItemInfo0, checksum 4174034235
+2021-02-18 19:27:00.621 -05:00 [INF] Responding 6F: adding ItemInfo7, checksum 1579731760
+2021-02-18 19:27:00.629 -05:00 [INF] Responding 6F: adding ItemInfo1, checksum 3753948418
+2021-02-18 19:27:00.630 -05:00 [INF] Responding 6F: adding SClass3, checksum 417941825
+2021-02-18 19:27:00.630 -05:00 [INF] Responding 6F: adding ItemInfo3, checksum 2342047117
+2021-02-18 19:27:00.631 -05:00 [INF] Responding 6F: adding ItemInfo6, checksum 407322046
+2021-02-18 19:27:00.632 -05:00 [INF] Responding 6F: adding ItemInfo5, checksum 4054792029
+2021-02-18 19:27:00.633 -05:00 [INF] Responding 6F: adding SClass5, checksum 417941825
+2021-02-18 19:27:00.633 -05:00 [INF] Responding 6F: adding SClass2, checksum 417941825
+2021-02-18 19:27:00.634 -05:00 [INF] Responding 6F: adding NationDesc, checksum 2229608707
+2021-02-18 19:27:00.635 -05:00 [INF] Responding 6F: adding SClass4, checksum 417941825
+2021-02-18 19:27:00.635 -05:00 [INF] Responding 6F: adding ItemInfo4, checksum 2514990575
+2021-02-18 19:27:00.636 -05:00 [INF] Responding 6F: adding NPCIllust, checksum 1104745215
+2021-02-18 19:27:00.636 -05:00 [INF] Responding 6F: adding SClass1, checksum 417941825
+2021-02-18 19:30:42.653 -05:00 [INF] ASSAILING NOW: Mikami, "North"
+2021-02-18 19:30:42.655 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:30:44.202 -05:00 [INF] ASSAILING NOW: Mikami, "North"
+2021-02-18 19:30:44.203 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:30:45.064 -05:00 [INF] ASSAILING NOW: Mikami, "North"
+2021-02-18 19:30:45.065 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:30:46.488 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:30:46.489 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:30:47.289 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:30:47.290 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:30:55.609 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:30:55.610 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:30:56.607 -05:00 [INF] ASSAILING NOW: Mikami, "West"
+2021-02-18 19:30:56.608 -05:00 [INF] Target: Bee, 262
+2021-02-18 19:30:58.305 -05:00 [INF] ASSAILING NOW: Mikami, "West"
+2021-02-18 19:30:58.306 -05:00 [INF] Target: Bee, 262
+2021-02-18 19:30:59.324 -05:00 [INF] ASSAILING NOW: Mikami, "West"
+2021-02-18 19:30:59.325 -05:00 [INF] Target: Bee, 262
+2021-02-18 19:31:01.028 -05:00 [INF] ASSAILING NOW: Mikami, "West"
+2021-02-18 19:31:01.029 -05:00 [INF] Target: Bee, 262
+2021-02-18 19:31:01.929 -05:00 [INF] ASSAILING NOW: Mikami, "South"
+2021-02-18 19:31:01.934 -05:00 [ERR] 19: Unhandled exception encountered in packet handler!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hybrasyl.Objects.User.AssailAttack(Direction direction, Creature target) in C:\Users\Ling\Desktop\Hybrasyl\green\server\hybrasyl\Objects\User.cs:line 2719
+   at Hybrasyl.World.PacketHandler_0x13_Attack(Object obj, ClientPacket packet) in C:\Users\Ling\Desktop\Hybrasyl\green\server\hybrasyl\World.cs:line 2267
+   at Hybrasyl.World.QueueConsumer() in C:\Users\Ling\Desktop\Hybrasyl\green\server\hybrasyl\World.cs:line 4153
+2021-02-18 19:31:05.457 -05:00 [INF] ASSAILING NOW: Mikami, "West"
+2021-02-18 19:31:05.458 -05:00 [INF] Target: Bee, 262
+2021-02-18 19:31:06.996 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:06.997 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:08.691 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:08.692 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:09.798 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:09.799 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:10.746 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:10.747 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:12.314 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:12.315 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:18.616 -05:00 [INF] Object Mikami: 86 removed
+2021-02-18 19:31:18.617 -05:00 [INF] Deregistering 5
+2021-02-18 19:31:18.618 -05:00 [INF] Processing redirect
+2021-02-18 19:31:18.619 -05:00 [INF] Redirect: cid 5
+2021-02-18 19:31:18.620 -05:00 [INF] Redirect EncryptionKey is UrkcnItnI
+2021-02-18 19:31:18.621 -05:00 [INF] Deregistering 5
+2021-02-18 19:31:18.621 -05:00 [ERR] Couldn't deregister cid 5
+2021-02-18 19:31:18.627 -05:00 [INF] cid 5: closed, player Mikami removed
+2021-02-18 19:31:18.629 -05:00 [INF] Object Mikami: 0 removed
+2021-02-18 19:31:18.632 -05:00 [INF] {1} leaving world
+2021-02-18 19:31:19.891 -05:00 [ERR] Send: socket should not exist: cid 5
+2021-02-18 19:31:19.891 -05:00 [ERR] bytesRead: 0, errorCode: Success
+2021-02-18 19:31:19.891 -05:00 [INF] Connection 6 from 127.0.0.1:65390
+2021-02-18 19:31:19.893 -05:00 [INF] Deregistering 5
+2021-02-18 19:31:19.897 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:31:23.716 -05:00 [INF] cid 6 (Mikami): login successful, redirecting to world server
+2021-02-18 19:31:23.718 -05:00 [INF] Processing redirect
+2021-02-18 19:31:23.718 -05:00 [INF] Redirect: cid 6
+2021-02-18 19:31:23.720 -05:00 [INF] Redirect EncryptionKey is UrkcnItnI
+2021-02-18 19:31:23.747 -05:00 [WRN] Login: Unhandled opcode 0x7B
+2021-02-18 19:31:24.069 -05:00 [ERR] bytesRead: 0, errorCode: Success
+2021-02-18 19:31:24.069 -05:00 [INF] Connection 7 from 127.0.0.1:65391
+2021-02-18 19:31:24.070 -05:00 [INF] Deregistering 6
+2021-02-18 19:31:24.072 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:31:25.072 -05:00 [FTL] Failed to remove gameobject id: 87 name: Mikami
+2021-02-18 19:31:25.074 -05:00 [INF] cid 7: Mikami entering world
+2021-02-18 19:31:25.075 -05:00 [INF] 0 hours, 0 minutes
+2021-02-18 19:31:26.043 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:26.044 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:26.938 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:26.939 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:27.829 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:27.830 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:28.721 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:28.722 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:29.645 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:29.645 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:29.741 -05:00 [INF] Responding 6F: adding ItemInfo2, checksum 467885032
+2021-02-18 19:31:29.742 -05:00 [INF] Responding 6F: adding ItemInfo0, checksum 4174034235
+2021-02-18 19:31:29.743 -05:00 [INF] Responding 6F: adding ItemInfo7, checksum 1579731760
+2021-02-18 19:31:29.744 -05:00 [INF] Responding 6F: adding ItemInfo1, checksum 3753948418
+2021-02-18 19:31:29.745 -05:00 [INF] Responding 6F: adding SClass3, checksum 417941825
+2021-02-18 19:31:29.746 -05:00 [INF] Responding 6F: adding ItemInfo3, checksum 2342047117
+2021-02-18 19:31:29.746 -05:00 [INF] Responding 6F: adding ItemInfo6, checksum 407322046
+2021-02-18 19:31:29.747 -05:00 [INF] Responding 6F: adding ItemInfo5, checksum 4054792029
+2021-02-18 19:31:29.748 -05:00 [INF] Responding 6F: adding SClass5, checksum 417941825
+2021-02-18 19:31:29.748 -05:00 [INF] Responding 6F: adding SClass2, checksum 417941825
+2021-02-18 19:31:29.750 -05:00 [INF] Responding 6F: adding NationDesc, checksum 2229608707
+2021-02-18 19:31:29.750 -05:00 [INF] Responding 6F: adding SClass4, checksum 417941825
+2021-02-18 19:31:29.751 -05:00 [INF] Responding 6F: adding ItemInfo4, checksum 2514990575
+2021-02-18 19:31:29.752 -05:00 [INF] Responding 6F: adding NPCIllust, checksum 1104745215
+2021-02-18 19:31:29.752 -05:00 [INF] Responding 6F: adding SClass1, checksum 417941825
+2021-02-18 19:31:33.295 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:33.296 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:34.347 -05:00 [INF] ASSAILING NOW: Mikami, "East"
+2021-02-18 19:31:34.348 -05:00 [INF] Target: Bee, 254
+2021-02-18 19:31:36.304 -05:00 [INF] Object Mikami: 87 removed
+2021-02-18 19:31:36.305 -05:00 [INF] Deregistering 7
+2021-02-18 19:31:36.306 -05:00 [INF] Processing redirect
+2021-02-18 19:31:36.306 -05:00 [INF] cid 7: closed, player Mikami removed
+2021-02-18 19:31:36.311 -05:00 [INF] Redirect: cid 7
+2021-02-18 19:31:36.312 -05:00 [INF] Redirect EncryptionKey is UrkcnItnI
+2021-02-18 19:31:36.313 -05:00 [INF] Deregistering 7
+2021-02-18 19:31:36.314 -05:00 [ERR] Couldn't deregister cid 7
+2021-02-18 19:31:36.314 -05:00 [INF] Object Mikami: 0 removed
+2021-02-18 19:31:36.316 -05:00 [INF] {1} leaving world
+2021-02-18 19:31:37.568 -05:00 [ERR] Send: socket should not exist: cid 7
+2021-02-18 19:31:37.570 -05:00 [FTL] EndReceive Error:  Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:31:37.570 -05:00 [INF] Connection 8 from 127.0.0.1:65392
+2021-02-18 19:31:37.572 -05:00 [INF] Deregistering 7
+2021-02-18 19:31:37.574 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+2021-02-18 19:31:38.571 -05:00 [WRN] Login: Unhandled opcode 0x0B
+2021-02-18 19:31:38.593 -05:00 [ERR] bytesRead: 0, errorCode: Success
+2021-02-18 19:31:38.596 -05:00 [INF] Deregistering 8
+2021-02-18 19:31:38.597 -05:00 [FTL] Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
